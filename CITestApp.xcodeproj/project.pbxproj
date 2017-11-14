@@ -193,8 +193,8 @@
 				TargetAttributes = {
 					6B59C3851FBADBAB0030A790 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = X77GD9XPF9;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = S7G9J68NLX;
+						ProvisioningStyle = Manual;
 					};
 					6B59C3991FBADBAB0030A790 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -413,11 +413,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X77GD9XPF9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Atsushi Jike (KVA6ESLL83)";
+				DEVELOPMENT_TEAM = S7G9J68NLX;
 				INFOPLIST_FILE = CITestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yumemi.CITestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yumemi.kfc-app-ios-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "26ab3afe-b226-4fca-931d-1b0a4dcf84f5";
+				PROVISIONING_PROFILE_SPECIFIER = "KFC Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,11 +429,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = X77GD9XPF9;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: YUMEMI Inc.";
+				DEVELOPMENT_TEAM = S7G9J68NLX;
 				INFOPLIST_FILE = CITestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yumemi.CITestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yumemi.kfc-app-ios-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e7d317cb-4da1-4172-a91d-30e8865ba3c2";
+				PROVISIONING_PROFILE_SPECIFIER = "jp.co.yumemi.kfc-app-ios-dev InHouse";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -442,7 +448,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CITestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yumemi.CITestAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yumemi.kfc-app-ios-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CITestApp.app/CITestApp";
@@ -456,7 +462,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CITestAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yumemi.CITestAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yumemi.kfc-app-ios-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CITestApp.app/CITestApp";
@@ -469,7 +475,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CITestAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yumemi.CITestAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yumemi.kfc-app-ios-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CITestApp;
@@ -482,7 +488,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CITestAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yumemi.CITestAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.yumemi.kfc-app-ios-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = CITestApp;
