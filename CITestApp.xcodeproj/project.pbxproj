@@ -202,7 +202,7 @@
 				TargetAttributes = {
 					6B59C3851FBADBAB0030A790 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = S7G9J68NLX;
+						DevelopmentTeam = Y77RDM57S3;
 						ProvisioningStyle = Manual;
 					};
 					6B59C3991FBADBAB0030A790 = {
@@ -438,18 +438,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Atsushi Jike (KVA6ESLL83)";
-				DEVELOPMENT_TEAM = S7G9J68NLX;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Atsushi Jike (289BGWFU8W)";
+				DEVELOPMENT_TEAM = Y77RDM57S3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = CITestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yumemi.citest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenblox.citest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "905baafd-7d08-4d6f-8059-11272eaa34bf";
-				PROVISIONING_PROFILE_SPECIFIER = "citest development";
+				PROVISIONING_PROFILE = "58e33c2c-2087-4d53-80da-f4a1feaa0ff6";
+				PROVISIONING_PROFILE_SPECIFIER = "CITest Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -458,18 +458,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: YUMEMI Inc.";
-				DEVELOPMENT_TEAM = S7G9J68NLX;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Atsushi Jike (Y77RDM57S3)";
+				DEVELOPMENT_TEAM = Y77RDM57S3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = CITestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.yumemi.citest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevenblox.citest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3a06092e-1207-407f-a3f6-14cab54f3774";
-				PROVISIONING_PROFILE_SPECIFIER = "citest distribution";
+				PROVISIONING_PROFILE = "426275ee-4b00-4614-9844-c4749699a9f0";
+				PROVISIONING_PROFILE_SPECIFIER = "CITest AppStore";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
